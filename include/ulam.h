@@ -2,7 +2,7 @@
 
 #pragma once
 
-//Ulam Warburton's cellular automata
+//Ulam Warburton's Automaton 
 class Ulam final : public BoolBoard {
 public:
 // using Game<bool>::Game;

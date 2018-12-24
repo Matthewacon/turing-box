@@ -2,7 +2,7 @@
 
 #pragma once
 
-/**A modified version of Ulam Warburton's cellular automata that kills cells that do not have 
+/**A modified version of Ulam Warburton's Automaton that kills cells that do not have 
  * exactly one neighbour.
  */
 class AntiUlam final : public BoolBoard {
