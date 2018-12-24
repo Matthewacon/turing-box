@@ -8,6 +8,7 @@ A platform-agnostic, header-only collection of simple 2D cellular automata and g
 | [`anti_conway.h`](https://github.com/Matthewacon/turing-box/blob/master/include/anti_conway.h)  | Conway's Game of Life ruleset modified to bias toward living cells and recurrently modify the board.  |
 | [`ulam.h`](https://github.com/Matthewacon/turing-box/blob/master/include/ulam.h) | Standard ruleset of [Ulam-Warburton's Automaton](https://en.wikipedia.org/wiki/Ulam%E2%80%93Warburton_automaton). |
 | [`anti_ulam.h`](https://github.com/Matthewacon/turing-box/blob/master/include/anti_ulam.h) | Ulam-Warburton's Automaton modified to also kill cells without exactly one neighbour. |
+| [`langton.h`]() | Standard ruleset of [Langton's Ant](https://en.wikipedia.org/wiki/Langton's_ant#Rules). |
 | [`pong.h`](https://github.com/Matthewacon/turing-box/blob/master/include/pong.h) | Simple implementation of [Atari's 1972, Pong](https://en.wikipedia.org/wiki/Pong). |
 | [`text.h`](https://github.com/Matthewacon/turing-box/blob/master/include/text.h) | A simple horizontal and vertical text scalable character scrolling algorithm. |
 
