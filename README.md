@@ -36,7 +36,7 @@ There are a few inherited members and functions available for use from `<T> Boar
 | `set(unsigned int x, T flag)` | `void` | Sets the element associated with the index `x` to `flag`. |
 | `calculate_index(unsigned int x, unsigned int y)` | `unsigned int` | Returns the equivalent 1D index of the element at the 2D index `(x, y)`. |
 | `calculate_index(unsigned int index)` | `Point<unsigned int>` | Returns the equivalent 2D index of the element at the 1D index `index`. |
-| `wrap_around(int x, int bound)` | `unsinged int` | Wraps the value of `x` to withing the range of `0 <= x <= bound` |
+| `wrap_around(int x, int bound)` | `unsinged int` | Wraps the value of `x` to within the range of `0 <= x <= bound`. |
 
 ## Example
 Defining a cellular automaton is as simple as `#include`ing `board.h` and implementing `void update`:
@@ -49,7 +49,7 @@ public:
  using Board<bool>::Board();
  
  void update() {
-  bool *copy = new bool[];
+  bool *copy = new bool[total_len];
   memcpy(board, copy, sizeof(bool) * total_len);
   for (unsigned int i = 0; i < total_len; i++) {
    //Make changes to copy based on values of board
